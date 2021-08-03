@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-08-03T03:57:11.063Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="GW7daKmxmp1RGa6cZFR0" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-03T06:14:28.761Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="BdUYA6E6b5K6q6p8779j" version="14.9.3" type="github">
   <diagram id="pt81wuoub6sBAM-rx7p0" name="Page-1">
-    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="2394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wRPZLVhyfkNmrZ5B58f2-117" value="app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-360" width="870" height="310" as="geometry" />
+        </mxCell>
         <mxCell id="7FeQMlBsuKDe9G1kuXdj-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="160" width="320" height="170" as="geometry" />
         </mxCell>
@@ -40,8 +43,8 @@
         <mxCell id="7FeQMlBsuKDe9G1kuXdj-17" value="app2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="235" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wRPZLVhyfkNmrZ5B58f2-1" value="&lt;h1&gt;阶段一&lt;/h1&gt;&lt;p&gt;各个app之间为黑盒，内部在编译期间处理sync/async chunk的关系，互相之间不能依赖&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="25" width="190" height="120" as="geometry" />
+        <mxCell id="wRPZLVhyfkNmrZ5B58f2-1" value="&lt;h1&gt;阶段二&lt;/h1&gt;&lt;p&gt;各app分开维护，各自build&lt;/p&gt;&lt;p&gt;问题：公共逻辑不可复用&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="25" width="540" height="120" as="geometry" />
         </mxCell>
         <mxCell id="wRPZLVhyfkNmrZ5B58f2-38" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="545" width="320" height="170" as="geometry" />
@@ -79,7 +82,7 @@
         <mxCell id="wRPZLVhyfkNmrZ5B58f2-49" value="app2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="620" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wRPZLVhyfkNmrZ5B58f2-50" value="&lt;h1&gt;阶段二&lt;/h1&gt;&lt;p&gt;部分公用逻辑开发npm package，各个app内引用&lt;/p&gt;&lt;p&gt;问题：npm package版本影响各app版本，全局npm package冗余&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wRPZLVhyfkNmrZ5B58f2-50" value="&lt;h1&gt;阶段三&lt;/h1&gt;&lt;p&gt;部分公用逻辑开发npm package，各个app内引用&lt;/p&gt;&lt;p&gt;问题：npm package版本影响各app版本，全局npm package冗余&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="410" width="370" height="120" as="geometry" />
         </mxCell>
         <mxCell id="wRPZLVhyfkNmrZ5B58f2-51" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
@@ -154,7 +157,7 @@
         <mxCell id="wRPZLVhyfkNmrZ5B58f2-70" value="app2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="1240" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wRPZLVhyfkNmrZ5B58f2-71" value="&lt;h1&gt;阶段三&lt;/h1&gt;&lt;p&gt;部分稳定包build成umd格式，各个app内引用&lt;/p&gt;&lt;p&gt;问题：umd版本影响各app版本，各umd依赖冗余&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wRPZLVhyfkNmrZ5B58f2-71" value="&lt;h1&gt;阶段四&lt;/h1&gt;&lt;p&gt;部分稳定包build成umd格式，各个app内引用&lt;/p&gt;&lt;p&gt;问题：umd版本影响各app版本，各umd依赖冗余&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="1030" width="330" height="120" as="geometry" />
         </mxCell>
         <mxCell id="wRPZLVhyfkNmrZ5B58f2-72" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
@@ -225,6 +228,48 @@
         </mxCell>
         <mxCell id="wRPZLVhyfkNmrZ5B58f2-102" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1410" y="1620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wRPZLVhyfkNmrZ5B58f2-103" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="-420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wRPZLVhyfkNmrZ5B58f2-104" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="-290" width="320" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="wRPZLVhyfkNmrZ5B58f2-105" value="&lt;span&gt;sync chunk&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="-265" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wRPZLVhyfkNmrZ5B58f2-106" value="sync chunk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-265" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wRPZLVhyfkNmrZ5B58f2-107" value="&lt;span&gt;sync chunk&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="-195" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wRPZLVhyfkNmrZ5B58f2-108" value="async chunk" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-195" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wRPZLVhyfkNmrZ5B58f2-109" value="app1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="-215" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wRPZLVhyfkNmrZ5B58f2-110" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="-290" width="320" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="wRPZLVhyfkNmrZ5B58f2-111" value="&lt;span&gt;sync chunk&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="-265" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wRPZLVhyfkNmrZ5B58f2-112" value="sync chunk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="-265" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wRPZLVhyfkNmrZ5B58f2-113" value="&lt;span&gt;sync chunk&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="-195" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wRPZLVhyfkNmrZ5B58f2-114" value="async chunk" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="-195" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wRPZLVhyfkNmrZ5B58f2-115" value="app2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="795" y="-215" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wRPZLVhyfkNmrZ5B58f2-123" value="&lt;h1&gt;阶段一&lt;/h1&gt;&lt;p&gt;各app分开维护，各自build&lt;/p&gt;&lt;p&gt;问题：公共逻辑不可复用&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-530" width="540" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
