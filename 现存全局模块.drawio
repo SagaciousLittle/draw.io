@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2022-03-09T03:21:14.528Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" version="16.1.4" etag="s-3Fh5m0bGpeDQvhNIXc" type="github"><diagram id="ExtyWU-Yu_WzA11vvVrV">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-09T04:25:09.961Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="lgEB-Iy-gMpDnHQdLty0" version="16.1.4" type="github">
+  <diagram id="ExtyWU-Yu_WzA11vvVrV" name="Page-1">
+    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hfgPr2pQNOObeapzUFkw-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hfgPr2pQNOObeapzUFkw-1" target="hfgPr2pQNOObeapzUFkw-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfgPr2pQNOObeapzUFkw-4" value="加载函数加载" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hfgPr2pQNOObeapzUFkw-3">
+          <mxGeometry x="-0.275" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hfgPr2pQNOObeapzUFkw-1" value="@ok/quicksilver&lt;br&gt;(项目：expressway)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hfgPr2pQNOObeapzUFkw-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hfgPr2pQNOObeapzUFkw-2" target="hfgPr2pQNOObeapzUFkw-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfgPr2pQNOObeapzUFkw-16" value="加载后执行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hfgPr2pQNOObeapzUFkw-6">
+          <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hfgPr2pQNOObeapzUFkw-2" value="资源&lt;br&gt;(项目：expressway)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hfgPr2pQNOObeapzUFkw-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hfgPr2pQNOObeapzUFkw-5" target="hfgPr2pQNOObeapzUFkw-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfgPr2pQNOObeapzUFkw-14" value="show [module]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hfgPr2pQNOObeapzUFkw-12">
+          <mxGeometry x="-0.025" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hfgPr2pQNOObeapzUFkw-5" value="资源绑定到全局ui.expressway.[module]" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hfgPr2pQNOObeapzUFkw-11" value="&lt;span&gt;被加载的资源&lt;/span&gt;&lt;br&gt;&lt;span&gt;(项目：expressway)&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="665" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hfgPr2pQNOObeapzUFkw-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hfgPr2pQNOObeapzUFkw-19" target="hfgPr2pQNOObeapzUFkw-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfgPr2pQNOObeapzUFkw-18" value="加载函数加载[project]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hfgPr2pQNOObeapzUFkw-17">
+          <mxGeometry x="-0.275" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hfgPr2pQNOObeapzUFkw-19" value="@ok/quicksilver&lt;br&gt;(项目：expressway)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hfgPr2pQNOObeapzUFkw-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hfgPr2pQNOObeapzUFkw-22" target="hfgPr2pQNOObeapzUFkw-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfgPr2pQNOObeapzUFkw-21" value="加载后执行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hfgPr2pQNOObeapzUFkw-20">
+          <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hfgPr2pQNOObeapzUFkw-22" value="资源&lt;br&gt;(项目：任意，全局注入project version)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hfgPr2pQNOObeapzUFkw-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hfgPr2pQNOObeapzUFkw-25" target="hfgPr2pQNOObeapzUFkw-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfgPr2pQNOObeapzUFkw-24" value="show [project] [module]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hfgPr2pQNOObeapzUFkw-23">
+          <mxGeometry x="-0.025" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hfgPr2pQNOObeapzUFkw-25" value="资源绑定到全局ui.[project].[module]" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hfgPr2pQNOObeapzUFkw-26" value="&lt;span&gt;被加载的资源&lt;/span&gt;&lt;br&gt;&lt;span&gt;(项目：[project])&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="665" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hfgPr2pQNOObeapzUFkw-27" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=32;endSize=11.33;width=14;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="480" as="sourcePoint" />
+            <mxPoint x="470" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
